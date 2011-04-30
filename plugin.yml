@@ -1,0 +1,22 @@
+name: Arcana
+main: me.galenwinterdusk.arcana.Arcana
+version: 1.0
+commands:
+  wizard:
+    description: Toggle on or off a player being set as a wizard granting them access to spells
+    usage: /<command> [player name]
+  teach:
+    description: Teach a wizard player a specific spell
+    usage: /<command> [player name] [spell name]
+  forget:
+    description: Makes a wizard player lose access to a spell
+    usage: /<command> [player name] [spell name]
+  cast:
+    description: Wizard Player casts named spell
+    usage: /<command> [spell name]
+  spellbook:
+    description: Shows a wizard a list of spells known
+    usage: /<command> [spell name]
+  spellcost:
+    description: Returns the spells cost relative to the wizards power level
+    usage: /<command> [spell name]
